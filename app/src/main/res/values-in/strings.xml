@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">MovieAppLocalStorage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_favorite">Favorit</string>
+    <string name="change_language_settings">Ubah Bahasa</string>
+    <string name="rating">Peringkat :</string>
+    <string name="rating_vote">9.0</string>
+    <string name="popularity">Popularitas</string>
+    <string name="popularity_vote">0.5</string>
+    <string name="overview">A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \\\"fight clubs\\\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.</string>
+    <string name="add_to_favorite">Tambah ke Favorite</string>
+    <string name="text_delete_favorite">Hapus dari Favorite</string>
+    <string name="text_add_favorite">Tambah ke Favorite</string>
+    <string name="success_remove_favorite">Berhasil mengahapus dari favorite</string>
+    <string name="success_add_favorite">Berhasil Menambah ke Favorite</string>
+    <string name="detail_text">Detail</string>
+
+</resources>

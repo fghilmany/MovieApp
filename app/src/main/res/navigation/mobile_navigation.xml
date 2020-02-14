@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.movieapplocalstorage.fragment.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.example.movieapplocalstorage.fragment.FavoriteFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/tvListFragment"
+        android:name="com.example.movieapplocalstorage.fragment.movie.TvListFragment"
+        android:label="fragment_tv_list"
+        tools:layout="@layout/fragment_tv_list" />
+    <fragment
+        android:id="@+id/favoriteMovieFragment"
+        android:name="com.example.movieapplocalstorage.fragment.favorite.FavoriteMovieFragment"
+        android:label="fragment_favorite_movie"
+        tools:layout="@layout/fragment_favorite_movie" />
+    <fragment
+        android:id="@+id/favoriteTvFragment"
+        android:name="com.example.movieapplocalstorage.fragment.favorite.FavoriteTvFragment"
+        android:label="fragment_favorite_tv"
+        tools:layout="@layout/fragment_favorite_tv" />
+    <fragment
+        android:id="@+id/movieFragment"
+        android:name="com.example.movieapplocalstorage.fragment.movie.MovieFragment"
+        android:label="fragment_movie"
+        tools:layout="@layout/fragment_movie" />
+
+</navigation>
